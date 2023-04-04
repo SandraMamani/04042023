@@ -1,0 +1,44 @@
+.contenedor{
+    display:flex;
+    flex-direction: row;
+   /* flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;*/
+    align-self: flex-end;
+    text-align: center;
+}
+
+.elemento{
+    /*cborder: 1px solid black;
+    olor: blue;*/
+    flex-basis: 30%;
+}
+
+.uno{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.dos{
+    flex-basis: 30%;
+    flex-grow: 2;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.tres{
+    flex-basis: 30%;
+    flex-grow: 3;
+}
+
+@media screen and (max-width 400px)
+{
+
+}
+    
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
